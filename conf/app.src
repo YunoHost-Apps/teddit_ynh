@@ -1,0 +1,7 @@
+SOURCE_URL=https://codeberg.org/teddit/teddit/archive/0.4.0.tar.gz
+SOURCE_SUM=cf79b8504031be3ff9dc6e39c5a03c880396652d040b12a56d5ffb28471637ed
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true
