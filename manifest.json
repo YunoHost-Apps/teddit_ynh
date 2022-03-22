@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Open source alternative Reddit front-end",
-        "fr": "Alternative open source à Reddit"
+        "fr": "front-end libre de Reddit"
     },
     "version": "0.4.0~ynh1",
     "url": "https://teddit.net/",
