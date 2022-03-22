@@ -29,7 +29,7 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 
 ## Captures d'écran
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/screenshot.png)
 
 ## Avertissements / informations importantes
 

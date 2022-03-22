@@ -33,7 +33,7 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 
 ## Screenshots
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/screenshot.png)
 
 ## Disclaimers / important information
 
