@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Teddit for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/teddit.svg)](https://dash.yunohost.org/appci/app/teddit) ![](https://ci-apps.yunohost.org/ci/badges/teddit.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/teddit.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/teddit.svg)](https://dash.yunohost.org/appci/app/teddit) ![Working status](https://ci-apps.yunohost.org/ci/badges/teddit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/teddit.maintain.svg)  
 [![Install Teddit with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=teddit)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -33,24 +33,25 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 
 ## Screenshots
 
-![](./doc/screenshots/screenshot.png)
+![Screenshot of Teddit](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 
-* Official app website: https://teddit.net/
-* Upstream app code repository: https://codeberg.org/teddit/teddit
-* YunoHost documentation for this app: https://yunohost.org/app_teddit
-* Report a bug: https://github.com/YunoHost-Apps/teddit_ynh/issues
+* Official app website: <https://teddit.net/>
+* Upstream app code repository: <https://codeberg.org/teddit/teddit>
+* YunoHost documentation for this app: <https://yunohost.org/app_teddit>
+* Report a bug: <https://github.com/YunoHost-Apps/teddit_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/teddit_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/teddit_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade teddit -u https://github.com/YunoHost-Apps/teddit_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
