@@ -79,7 +79,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=3
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path"
+	ynh_setup_source --dest_dir="$final_path" --keep="config.js"
 fi
 
 chmod 750 "$final_path"
@@ -104,12 +104,12 @@ ynh_install_app_dependencies $pkg_dependencies
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-ynh_script_progression --message="Updating a configuration file..." --weight=1
+#ynh_script_progression --message="Updating a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/config.js.template" --destination="$final_path/config.js"
+#ynh_add_config --template="../conf/config.js.template" --destination="$final_path/config.js"
 
-chmod 400 "$final_path/config.js"
-chown $app:$app "$final_path/config.js"
+#chmod 400 "$final_path/config.js"
+#chown $app:$app "$final_path/config.js"
 
 #=================================================
 # INSTALL THE LOUNGE
