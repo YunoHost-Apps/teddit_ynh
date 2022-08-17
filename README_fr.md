@@ -27,7 +27,8 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 - Self-hostable. Anyone can setup an instance. An instance can either use Reddit's API with or without OAuth (so Reddit API key is not necessarily needed).
 
 
-**Version incluse :** 0.4.0~ynh1
+**Version incluse :** 0.4.0~ynh1
+
 
 **Démo :** https://teddit.net/
 
