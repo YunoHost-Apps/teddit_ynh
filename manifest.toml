@@ -1,0 +1,55 @@
+packaging_format = 2
+
+id = "teddit"
+name = "Teddit"
+description.en = "Open source alternative Reddit front-end"
+description.fr = "Front-end libre alternatif à Reddit"
+
+version = "0.4.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0-only"
+website = "https://teddit.net/"
+demo = "https://teddit.net/"
+code = "https://codeberg.org/teddit/teddit"
+
+[integration]
+yunohost = ">= 11.1.17"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = true
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    # this is a generic question - ask strings are automatically handled by Yunohost's core
+    type = "domain"
+    full_domain = true
+
+    [install.init_main_permission]
+    help.en = "If enabled, Teddit will be accessible by people who do not have an account. This can be changed later via the webadmin."
+    help.fr = "Si cette case est cochée, Teddit sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://codeberg.org/teddit/teddit/archive/0.4.0.tar.gz"
+        sha256 = "cf79b8504031be3ff9dc6e39c5a03c880396652d040b12a56d5ffb28471637ed"
+
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "ffmpeg"

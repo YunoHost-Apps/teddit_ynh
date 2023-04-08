@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Teddit pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/teddit.svg)](https://dash.yunohost.org/appci/app/teddit) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/teddit.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/teddit.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/teddit.svg)](https://dash.yunohost.org/appci/app/teddit) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/teddit.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/teddit.maintain.svg)
+
 [![Installer Teddit avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=teddit)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Teddit rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Teddit rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 A free and open source alternative Reddit front-end focused on privacy. Inspired by the Nitter project.
 
@@ -24,22 +25,21 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 - Prevents Reddit from tracking your IP or JavaScript fingerprint
 - Unofficial API (RSS & JSON support, no rate limits or Reddit account required)
 - Lightweight (teddit frontpage: ~30 HTTP requests with ~270 KB of data downloaded vs. Reddit frontpage: ~190 requests with ~24 MB)
-- Self-hostable. Anyone can setup an instance. An instance can either use Reddit's API with or without OAuth (so Reddit API key is not necessarily needed).
 
 
-**Version incluse :** 0.4.0~ynh1
 
+**Version incluse :** 0.4.0~ynh1
 
 **Démo :** https://teddit.net/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Teddit](./doc/screenshots/screenshot.png)
+![Capture d’écran de Teddit](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://teddit.net/>
-* Dépôt de code officiel de l'app : <https://codeberg.org/teddit/teddit>
+* Site officiel de l’app : <https://teddit.net/>
+* Dépôt de code officiel de l’app : <https://codeberg.org/teddit/teddit>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_teddit>
 * Signaler un bug : <https://github.com/YunoHost-Apps/teddit_ynh/issues>
 
@@ -55,4 +55,4 @@ ou
 sudo yunohost app upgrade teddit -u https://github.com/YunoHost-Apps/teddit_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

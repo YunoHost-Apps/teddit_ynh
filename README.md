@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Teddit for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/teddit.svg)](https://dash.yunohost.org/appci/app/teddit) ![Working status](https://ci-apps.yunohost.org/ci/badges/teddit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/teddit.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/teddit.svg)](https://dash.yunohost.org/appci/app/teddit) ![Working status](https://ci-apps.yunohost.org/ci/badges/teddit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/teddit.maintain.svg)
+
 [![Install Teddit with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=teddit)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -24,11 +25,10 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 - Prevents Reddit from tracking your IP or JavaScript fingerprint
 - Unofficial API (RSS & JSON support, no rate limits or Reddit account required)
 - Lightweight (teddit frontpage: ~30 HTTP requests with ~270 KB of data downloaded vs. Reddit frontpage: ~190 requests with ~24 MB)
-- Self-hostable. Anyone can setup an instance. An instance can either use Reddit's API with or without OAuth (so Reddit API key is not necessarily needed).
+
 
 
 **Shipped version:** 0.4.0~ynh1
-
 
 **Demo:** https://teddit.net/
 
