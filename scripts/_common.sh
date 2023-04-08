@@ -7,9 +7,6 @@
 # nodejs version
 nodejs_version=16
 
-# dependencies used by the app
-#REMOVEME? pkg_dependencies="ffmpeg"
-
 #=================================================
 # PERSONAL HELPERS
 #=================================================
