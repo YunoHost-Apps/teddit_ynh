@@ -5,7 +5,7 @@ name = "Teddit"
 description.en = "Open source alternative Reddit front-end"
 description.fr = "Front-end libre alternatif à Reddit"
 
-version = "0.4.0~ynh2"
+version = "0.4.0~ynh3"
 
 maintainers = ["eric_G"]
 
@@ -16,7 +16,7 @@ demo = "https://teddit.net/"
 code = "https://codeberg.org/teddit/teddit"
 
 [integration]
-yunohost = ">= 11.1.17"
+yunohost = ">= 11.1.19"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -27,7 +27,6 @@ ram.runtime = "50M"
 
 [install]
     [install.domain]
-    # this is a generic question - ask strings are automatically handled by Yunohost's core
     type = "domain"
     full_domain = true
 
@@ -39,8 +38,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://codeberg.org/teddit/teddit/archive/0.4.0.tar.gz"
-        sha256 = "cf79b8504031be3ff9dc6e39c5a03c880396652d040b12a56d5ffb28471637ed"
+        url = "https://codeberg.org/teddit/teddit/archive/b0ce6c52a66987543707d3559d50e4dc2d35a3e8.tar.gz"
+        sha256 = "89a0d5e95692d32c9b28d1c626ec74cb5803737abd29be9f739bbb002c6c1bb1"
 
     [resources.ports]
 
