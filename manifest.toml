@@ -5,7 +5,7 @@ name = "Teddit"
 description.en = "Open source alternative Reddit front-end"
 description.fr = "Front-end libre alternatif à Reddit"
 
-version = "0.4.0~ynh3"
+version = "0.4.0~ynh4"
 
 maintainers = ["eric_G"]
 
@@ -16,7 +16,7 @@ demo = "https://teddit.net/"
 code = "https://codeberg.org/teddit/teddit"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
