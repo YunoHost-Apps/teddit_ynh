@@ -28,7 +28,7 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 
 
 
-**Version incluse :** 0.4.0~ynh3
+**Version incluse :** 0.4.0~ynh4
 
 **Démo :** https://teddit.net/
 
