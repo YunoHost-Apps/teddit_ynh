@@ -40,7 +40,7 @@ A free and open source alternative Reddit front-end focused on privacy. Inspired
 
 * Official app website: <https://teddit.net/>
 * Upstream app code repository: <https://codeberg.org/teddit/teddit>
-* YunoHost documentation for this app: <https://yunohost.org/app_teddit>
+* YunoHost Store: <https://apps.yunohost.org/app/teddit>
 * Report a bug: <https://github.com/YunoHost-Apps/teddit_ynh/issues>
 
 ## Developer info
