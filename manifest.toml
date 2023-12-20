@@ -5,7 +5,7 @@ name = "Teddit"
 description.en = "Open source alternative Reddit front-end"
 description.fr = "Front-end libre alternatif à Reddit"
 
-version = "0.4.0~ynh4"
+version = "0.4.0~ynh5"
 
 maintainers = ["eric_G"]
 
@@ -19,8 +19,11 @@ code = "https://codeberg.org/teddit/teddit"
 yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = true
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -37,8 +40,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://codeberg.org/teddit/teddit/archive/b0ce6c52a66987543707d3559d50e4dc2d35a3e8.tar.gz"
-        sha256 = "89a0d5e95692d32c9b28d1c626ec74cb5803737abd29be9f739bbb002c6c1bb1"
+        url = "https://codeberg.org/teddit/teddit/archive/4536a7f4608f0f17bbee4188f9875fad8bfa954f.tar.gz"
+        sha256 = "e2806688d171c6ec5e0e63d0e3ae3ac4c35e125a4d750c7f74187407d7565c0e"
 
     [resources.ports]
 
