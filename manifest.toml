@@ -42,6 +42,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://codeberg.org/teddit/teddit/archive/4536a7f4608f0f17bbee4188f9875fad8bfa954f.tar.gz"
         sha256 = "fd46a65aa9ddbed2a98be3e02510c170a07409bfe537d5324f2c6097e89f01db"
+        autoupdate.strategy = "latest_forgejo_commit"
 
     [resources.ports]
 
