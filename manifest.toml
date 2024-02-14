@@ -7,7 +7,7 @@ description.fr = "Front-end libre alternatif à Reddit"
 
 version = "0.4.0~ynh6"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "AGPL-3.0-only"
